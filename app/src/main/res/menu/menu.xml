@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/basket"
+        android:title="@string/add_item"
+        app:showAsAction="ifRoom|withText">
+
+    </item>
+
+    <item
+        android:id="@+id/action_buy"
+        android:icon="@drawable/basket"
+        android:title="@string/buy_item"
+        app:showAsAction="never|withText">
+
+    </item>
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/bin"
+        android:title="@string/delete_item"
+        app:showAsAction="never|withText">
+    </item>
+
+</menu>

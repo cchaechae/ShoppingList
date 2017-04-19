@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemtypes_array">
+
+        <item> SKIN </item>
+        <item> EYES </item>
+        <item> LIP </item>
+        <item> NAIL </item>
+        <item> HAIR </item>
+
+    </string-array>
+</resources>
